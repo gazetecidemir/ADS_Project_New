@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - ADS Metal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Üst Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="tr">Türkçe</option>
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                    <option value="ru">Русский</option>
+                </select>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Site içi arama...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigasyon -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">ADS <span>METAL</span></div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Anasayfa</a></li>
+                <li class="dropdown">
+                    <a href="#">Kurumsal <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="hakkimizda.html">Hakkımızda</a>
+                        <a href="misyon.html">Misyonumuz</a>
+                        <a href="vizyon.html">Vizyonumuz</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Ürünlerimiz <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="oluklu-duvarlar.html">Oluklu Duvarlar</a>
+                        <a href="trafo-tanklari.html">Trafo Tankları</a>
+                        <a href="ozel-tasarim-tanklar.html">Özel Tasarım Tanklar</a>
+                        <a href="trafo-kapaklari.html">Trafo Kapakları</a>
+                        <a href="konservatuvar.html">Konservatuvar</a>
+                        <a href="hdg-tanklari.html">HDG Tankları</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Kalite Yönetimi <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="kalite-politikasi.html">Kalite Politikası</a>
+                        <a href="cevre-politikasi.html">Çevre Politikası</a>
+                        <a href="sec-politikasi.html">SEÇ Politikası</a>
+                        <a href="is-etigi.html">İş Etiği</a>
+                        <a href="kalite-belgeleri.html">Kalite Belgeleri</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">İnsan Kaynakları <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="insan-kaynaklari-politikamiz.html">İnsan Kaynakları Politikamız</a>
+                        <a href="basvuru-formu.html">Başvuru Formu</a>
+                    </div>
+                </li>
+                <li><a href="iletisim.html" class="active">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sayfa İçeriği -->
+    <section class="page-content">
+        <div class="container">
+            <h1>İletişim</h1>
+            
+            <div class="contact-info-section" style="margin-bottom: 50px;">
+                <div class="contact-details">
+                    <h2 style="margin-bottom: 30px; text-align: center;">İletişim Bilgilerimiz</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon Numaralarımız</h3>
+                            <p>+90 544 815 23 19</p>
+                            <p>+90 312 815 23 19</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-Mail Adresimiz</h3>
+                            <p>sales@adsmetal.com.tr</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adresimiz</h3>
+                            <p>Başkent OSB Başkent Bulvarı No:96 Malıköy - Sincan - Ankara / TÜRKİYE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <h2 style="margin-bottom: 30px; text-align: center;">İletişim Formu</h2>
+                <form id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Firma Adı</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-posta Adresiniz</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon Numaranız</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Gönder</button>
+                </form>
+            </div>
+
+            <div class="form-container" style="margin-top: 50px;">
+                <h2 style="margin-bottom: 30px; text-align: center;">Şikayet ve İstek Formu</h2>
+                <form id="complaint-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="complaint-name">Adınız Soyadınız</label>
+                            <input type="text" id="complaint-name" name="complaint-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="complaint-company">Firma Adı</label>
+                            <input type="text" id="complaint-company" name="complaint-company">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="complaint-email">E-posta Adresiniz</label>
+                            <input type="email" id="complaint-email" name="complaint-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="complaint-phone">Telefon Numaranız</label>
+                            <input type="tel" id="complaint-phone" name="complaint-phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="complaint-type">Şikayet/İstek Türü</label>
+                        <select id="complaint-type" name="complaint-type" required>
+                            <option value="">Seçiniz</option>
+                            <option value="complaint">Şikayet</option>
+                            <option value="request">İstek/Öneri</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="complaint-message">Mesajınız</label>
+                        <textarea id="complaint-message" name="complaint-message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>ADS METAL</h3>
+                    <p>Yüksek kaliteli metal ürünleri ve hizmetleri ile endüstrinin önde gelen oyuncusu.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="urunlerimiz.html">Ürünlerimiz</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>İletişim Bilgileri</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p>+90 544 815 23 19</p>
+                                <p>+90 312 815 23 19</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>sales@adsmetal.com.tr</div>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>Başkent OSB Başkent Bulvarı No:96 Malıköy - Sincan - Ankara / TÜRKİYE</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 ADS METAL. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Form gönderme işlevleri
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mesajınız başarıyla gönderildi. En kısa sürede sizinle iletişime geçeceğiz.');
+            this.reset();
+        });
+
+        document.getElementById('complaint-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Şikayet/İsteğiniz başarıyla gönderildi. En kısa sürede değerlendirilecektir.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
