@@ -151,10 +151,17 @@ nav {
 
 /* Hero Bölümü Stilleri */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+        url(images/fabrika_1920x1080.jpg) no-repeat center center/cover;
     color: white;
-    padding: 100px 0;
+    padding: 120px 20px;
     text-align: center;
+    min-height: 80vh; /* Ekran yüksekliğinin %80'i */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .hero h1 {
