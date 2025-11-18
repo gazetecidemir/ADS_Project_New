@@ -3,6 +3,14 @@
 - Sol üst köşeye telefon ve mail (bağlantılı) ikonu eklensin
 - Menüler:
 - Kurumsal: Hakkımızda sekmesi "Biz Kimiz" olarak değiştirilsin
+- Kurumsal içindeki misyon-vizyon iptal edip değerlerimiz sekmesi eklenecek.
+- Kurumsal içinde; Başkan'dan mesajlar veya yönetim kurulu şeması
+- Kurumsal içinde; kurumsal kimlik klavuzu olacak (pdf)
 - Google Haritalar eklenecek 
 - Adres kısmında diğer adreslerimiz de olacak
-- 
+- Kurumsal sekmesinin içindeki başlıklara dikey fotoğraf eklenecek
+- Ürünler sekmesini güncelleyip fotoğraf eklenecek(teknik ve genel fotoğraf)
+- Kalite belgeleri Parisa Hanım'dan istenecek. Sonrasında eklenecek.
+- İletişim sekmesinde altında iletişim, İstek ve Şikayet Formu
+- İletişimin içine başkent ve anadolu fabrikalarımızın adres ve googlemap haritaları olacak.
+- Site görselleri Parisa Hanım'dan istenecek.
