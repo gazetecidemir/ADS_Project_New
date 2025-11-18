@@ -1,0 +1,8 @@
+- Dil sekmesi sağ üst köşeye alınsın
+- Sağdaki site arama sekmesi kaldırılsın
+- Sol üst köşeye telefon ve mail (bağlantılı) ikonu eklensin
+- Menüler:
+- Kurumsal: Hakkımızda sekmesi "Biz Kimiz" olarak değiştirilsin
+- Google Haritalar eklenecek 
+- Adres kısmında diğer adreslerimiz de olacak
+- 
