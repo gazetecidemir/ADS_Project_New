@@ -10,6 +10,7 @@
 - Adres kısmında diğer adreslerimiz de olacak
 - Kurumsal sekmesinin içindeki başlıklara dikey fotoğraf eklenecek
 - Ürünler sekmesini güncelleyip fotoğraf eklenecek(teknik ve genel fotoğraf)
+- Ürünlerde Konservatuvar sekmesi Genleşme Deposu olarak değişecek. Bütün sekmeler ve içerik detaylı incelenecek.
 - Kalite belgeleri Parisa Hanım'dan istenecek. Sonrasında eklenecek.
 - İletişim sekmesinde altında iletişim, İstek ve Şikayet Formu
 - İletişimin içine başkent ve anadolu fabrikalarımızın adres ve googlemap haritaları olacak.
