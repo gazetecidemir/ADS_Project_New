@@ -1,6 +1,6 @@
-- Dil sekmesi sağ üst köşeye alınsın
-- Sağdaki site arama sekmesi kaldırılsın
-- Sol üst köşeye telefon ve mail (bağlantılı) ikonu eklensin
+- Dil sekmesi sağ üst köşeye alınsın (+)
+- Sağdaki site arama sekmesi kaldırılsın (+)
+- Sol üst köşeye telefon ve mail (bağlantılı) ikonu eklensin (+)
 - Menüler:
 - Kurumsal: Hakkımızda sekmesi "Biz Kimiz" olarak değiştirilsin
 - Kurumsal içindeki misyon-vizyon iptal edip değerlerimiz sekmesi eklenecek.

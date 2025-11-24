@@ -33,45 +33,92 @@ body {
     align-items: center;
 }
 
+/* SOL TARAF: İletişim bilgileri */
+.top-contact-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-contact-info a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s;
+    font-size: 13px;
+}
+
+.top-contact-info a:hover {
+    color: #3498db;
+}
+
+.top-contact-info i {
+    font-size: 12px;
+}
+
+/* SAĞ TARAF: Dil + Sosyal medya container'ı - BU EKSİKTİ */
+.right-elements {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Dil seçici ve sosyal medya arası boşluk */
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+}
+
 .language-selector select {
     background-color: #2c3e50;
     color: white;
     border: 1px solid rgba(255,255,255,0.3);
     padding: 5px 10px;
     border-radius: 4px;
-    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Sosyal medya ikonları arası boşluk */
 }
 
 .social-icons a {
     color: white;
-    margin-left: 15px;
     font-size: 18px;
     transition: color 0.3s;
+    margin-left: 0; 
 }
 
 .social-icons a:hover {
     color: #3498db;
 }
 
-.search-bar {
-    display: flex;
+/* Tablet ve mobil için */
+@media (max-width: 768px) {
+    .top-bar-content {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .top-contact-info {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .right-elements {
+        order: 2;
+        gap: 10px; /* Mobilde daha az boşluk */
+    }
+    
+    .top-contact-info a {
+        font-size: 12px;
+    }
 }
-
-.search-bar input {
-    padding: 5px 10px;
-    border: none;
-    border-radius: 4px 0 0 4px;
-}
-
-.search-bar button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-}
-
 /* Navigasyon Stilleri */
 nav {
     background-color: white;
@@ -511,15 +558,6 @@ footer {
     .top-bar-content {
         flex-direction: column;
         gap: 10px;
-    }
-
-    .search-bar {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .search-bar input {
-        flex: 1;
     }
 
     .hero h1 {
