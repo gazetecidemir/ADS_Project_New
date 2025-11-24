@@ -12,6 +12,6 @@
 - Ürünler sekmesini güncelleyip fotoğraf eklenecek(teknik ve genel fotoğraf)
 - Bütün sekmeler ve içerik detaylı incelenecek.
 - Kalite belgeleri Parisa Hanım'dan istenecek. Sonrasında eklenecek.
-- İletişim sekmesinde altında iletişim, İstek ve Şikayet Formu
+- İletişim sekmesinde altında iletişim, İstek ve Şikayet Formu (+)
 - İletişimin içine başkent ve anadolu fabrikalarımızın adres ve googlemap haritaları olacak.
 - Site görselleri Parisa Hanım'dan istenecek.

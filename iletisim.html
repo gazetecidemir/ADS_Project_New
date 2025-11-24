@@ -100,10 +100,23 @@
                         <a href="basvuru-formu.html">Başvuru Formu</a>
                     </div>
                 </li>
-                <li><a href="iletisim.html" class="active">İletişim</a></li>
-            </ul>
-        </div>
-    </nav>
+            <li class="dropdown">
+                <a href="#">İnsan Kaynakları <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="insan-kaynaklari-politikamiz.html">İnsan Kaynakları Politikamız</a>
+                    <a href="basvuru-formu.html">Başvuru Formu</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)">İletişim <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="iletisim.html">İletişim</a>
+                    <a href="istek-sikayet-formu.html">İstek ve Şikayet Formu</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 
     <!-- Sayfa İçeriği -->
     <section class="page-content">
@@ -173,44 +186,7 @@
                 </form>
             </div>
 
-            <div class="form-container" style="margin-top: 50px;">
-                <h2 style="margin-bottom: 30px; text-align: center;">Şikayet ve İstek Formu</h2>
-                <form id="complaint-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="complaint-name">Adınız Soyadınız</label>
-                            <input type="text" id="complaint-name" name="complaint-name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="complaint-company">Firma Adı</label>
-                            <input type="text" id="complaint-company" name="complaint-company">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="complaint-email">E-posta Adresiniz</label>
-                            <input type="email" id="complaint-email" name="complaint-email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="complaint-phone">Telefon Numaranız</label>
-                            <input type="tel" id="complaint-phone" name="complaint-phone">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="complaint-type">Şikayet/İstek Türü</label>
-                        <select id="complaint-type" name="complaint-type" required>
-                            <option value="">Seçiniz</option>
-                            <option value="complaint">Şikayet</option>
-                            <option value="request">İstek/Öneri</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="complaint-message">Mesajınız</label>
-                        <textarea id="complaint-message" name="complaint-message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn" style="width: 100%;">Gönder</button>
-                </form>
-            </div>
+           
         </div>
     </section>
 

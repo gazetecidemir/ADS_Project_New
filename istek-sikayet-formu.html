@@ -7,7 +7,7 @@
     <meta name="keywords" content="ADS Metal, trafo kazanı, dalga duvar, oluklu duvar, trafo tankları, trafo kapakları, trafo, transformatör" />
     <meta name="author" content="Ads Metal" />
     <meta name="robots" content="index, follow" />
-    <title>Trafo Tankları - ADS Metal</title>
+    <title>İstek/Şikayet Formu | ADS Metal</title>
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- Üst Bar -->
- <div class="top-bar">
+     <div class="top-bar">
     <div class="container top-bar-content">
         <!-- SOL TARAF: İletişim bilgileri -->
         <div class="top-contact-info">
@@ -56,7 +56,7 @@
     <!-- Navigasyon -->
     <nav>
         <div class="container nav-container">
-           <a href="index.html" class="logo-link">
+            <a href="index.html" class="logo-link">
     <img src="images/Logo.png" alt="ADS Metal Logo" class="header-logo">
 </a>
             <button class="mobile-menu-btn">
@@ -73,10 +73,10 @@
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="active">Ürünlerimiz <i class="fas fa-chevron-down"></i></a>
+                    <a href="#">Ürünlerimiz <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content">
                         <a href="oluklu-duvarlar.html">Oluklu Duvarlar</a>
-                        <a href="trafo-tanklari.html" class="active">Trafo Tankları</a>
+                        <a href="trafo-tanklari.html">Trafo Tankları</a>
                         <a href="ozel-tasarim-tanklar.html">Özel Tasarım Tanklar</a>
                         <a href="trafo-kapaklari.html">Trafo Kapakları</a>
                         <a href="genlesme.html">Genleşme Deposu</a>
@@ -94,51 +94,57 @@
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="#">İnsan Kaynakları <i class="fas fa-chevron-down"></i></a>
+                    <a href="#" class="active">İnsan Kaynakları <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content">
                         <a href="insan-kaynaklari-politikamiz.html">İnsan Kaynakları Politikamız</a>
-                        <a href="basvuru-formu.html">Başvuru Formu</a>
+                        <a href="basvuru-formu.html" class="active">Başvuru Formu</a>
                     </div>
                 </li>
-            <li class="dropdown">
-                <a href="#">İnsan Kaynakları <i class="fas fa-chevron-down"></i></a>
-                <div class="dropdown-content">
-                    <a href="insan-kaynaklari-politikamiz.html">İnsan Kaynakları Politikamız</a>
-                    <a href="basvuru-formu.html">Başvuru Formu</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">İletişim <i class="fas fa-chevron-down"></i></a>
-                <div class="dropdown-content">
-                    <a href="iletisim.html">İletişim</a>
-                    <a href="istek-sikayet-formu.html">İstek ve Şikayet Formu</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Sayfa İçeriği -->
     <section class="page-content">
-        <div class="container">
-            <h1>Trafo Tankları</h1>
-            <div class="page-text-content">
-                <div class="product-image" style="text-align: center; margin-bottom: 30px;">
-                    <img src="https://via.placeholder.com/800x400" alt="Trafo Tankları" style="max-width: 100%; border-radius: 8px;">
-                </div>
-                
-                <p>2009 yılında başladığımızdan beri her yıl trafo tankları konusundaki bilgi ve tecrübemizi arttırmaktayız. ADS METAL mevcut bilgi birikimimiz ile her türlü Transformatör Tankını yüksek kalitede üretebilecek kapasitededir. Bilgi birikimimiz, benzersiz olan kendi makinelerimizi tasarlamanın bile avantajını getiriyor.</p>
-                
-                <p>Trafo Tankları ADS Metal olarak; 2009 yılından bu yana, her yıl trafo tankları konusundaki bilgi ve tecrübemizi artırmaktayız. Mevcut bilgi birikimimiz ile müşterilerimizin taleplerine uygun olarak yüksek kalitede trafo tankları üretebilmekteyiz.</p>
-                
-                <h3>Üretim Kapasitemiz:</h3>
-                <ul class="specs-list">
-                    <li>20 adet manuel kaynak istasyonu</li>
-                    <li>3 adet robotik kaynak istasyonu</li>
-                    <li>Aylık 500 ton tank üretim kapasitesi</li>
-                    <li>25 kVA - 20 mVA arasında tank üretim imkanı</li>
-                </ul>
-                
-                <p>Trafo tankları, transformatörlerin en önemli bileşenlerinden biridir ve transformatörün güvenli ve verimli çalışmasını sağlar. Üretim süreçlerimizde en son teknoloji ekipmanlar ve kalite kontrol sistemleri kullanılarak, müşteri ihtiyaçlarına uygun özelliklerde trafo tankları üretilmektedir.</p>
+                        
+                 <div class="form-container" style="margin-top: 50px;">
+                <h2 style="margin-bottom: 30px; text-align: center;">Şikayet ve İstek Formu</h2>
+                <form id="complaint-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="complaint-name">Adınız Soyadınız</label>
+                            <input type="text" id="complaint-name" name="complaint-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="complaint-company">Firma Adı</label>
+                            <input type="text" id="complaint-company" name="complaint-company">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="complaint-email">E-posta Adresiniz</label>
+                            <input type="email" id="complaint-email" name="complaint-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="complaint-phone">Telefon Numaranız</label>
+                            <input type="tel" id="complaint-phone" name="complaint-phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="complaint-type">Şikayet/İstek Türü</label>
+                        <select id="complaint-type" name="complaint-type" required>
+                            <option value="">Seçiniz</option>
+                            <option value="complaint">Şikayet</option>
+                            <option value="request">İstek/Öneri</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="complaint-message">Mesajınız</label>
+                        <textarea id="complaint-message" name="complaint-message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Gönder</button>
+                </form>
             </div>
         </div>
     </section>
@@ -188,5 +194,34 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Başvuru formu gönderme işlevi
+        document.getElementById('application-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Form verilerini al
+            const formData = new FormData(this);
+            const position = document.getElementById('position').value;
+            const positionText = document.getElementById('position').options[document.getElementById('position').selectedIndex].text;
+            
+            // Başarı mesajı göster
+            alert(`Başvurunuz başarıyla gönderildi!\n\nBaşvurulan Pozisyon: ${positionText}\n\nEn kısa sürede sizinle iletişime geçilecektir.`);
+            
+            // Formu temizle
+            this.reset();
+        });
+
+        // Dosya boyutu kontrolü
+        document.getElementById('cv').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const fileSize = file.size / 1024 / 1024; // MB cinsinden
+                if (fileSize > 5) {
+                    alert('Dosya boyutu 5MB\'dan büyük olamaz. Lütfen daha küçük bir dosya seçin.');
+                    this.value = '';
+                }
+            }
+        });
+    </script>
 </body>
 </html>
