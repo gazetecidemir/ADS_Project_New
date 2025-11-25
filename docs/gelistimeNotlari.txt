@@ -3,7 +3,7 @@
 - Sol üst köşeye telefon ve mail (bağlantılı) ikonu eklensin (+)
 - Menüler:
 - Kurumsal: Hakkımızda sekmesi "Biz Kimiz" olarak değiştirilsin (+)
-- Kurumsal içindeki misyon-vizyon iptal edip değerlerimiz sekmesi eklenecek.
+- Kurumsal içindeki misyon-vizyon iptal edip değerlerimiz sekmesi eklenecek.(+)
 - Kurumsal içinde; Başkan'dan mesajlar veya yönetim kurulu şeması
 - Kurumsal içinde; kurumsal kimlik klavuzu olacak (pdf)
 - Google Haritalar eklenecek 
