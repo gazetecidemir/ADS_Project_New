@@ -168,6 +168,10 @@ nav {
     color: #3498db;
 }
 
+.dropdown > a .fas.fa-chevron-down {
+    display: none;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -281,6 +285,9 @@ nav {
   @media (max-width: 768px) {
     .title { font-size: 2.5rem; }
     .subtitle { font-size: 1.1rem; }
+    .page-content .container {
+    flex-direction: column !important;
+    }
   }
 /* İçerik Bölümü Stilleri */
 .content-section {
